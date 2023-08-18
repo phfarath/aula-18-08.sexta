@@ -1,0 +1,28 @@
+:root{
+    --color:blue;
+    --font-body: 'lato', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon-position{
+    position: relative;
+    top: 1px;
+}
+.text-color{
+    color:var(--color);
+}
+body{
+    background-color: #055160;
+}
+.logo-menu{
+    font-size: 27px;
+    color: blue;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}
+.nav-link:hover, .logo-menu:hover{
+    color:blue;
+}
